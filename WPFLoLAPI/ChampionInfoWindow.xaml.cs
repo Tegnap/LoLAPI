@@ -23,17 +23,17 @@ namespace WPFLoLAPI
             InitializeComponent();
             if (selectedChampion != null)
             {
-                // Az ablak címét is átírjuk a hős nevére
+                
                 this.Title = $"{selectedChampion.Name} Részletei";
 
-                // Szövegek kitöltése
                 TxtName.Text = selectedChampion.Name;
                 TxtTitle.Text = selectedChampion.Title;
+                TxtBlurb.Text = selectedChampion.Blurb;
 
                 if (selectedChampion.Info != null)
                 {
-                    TxtAttack.Text = $"⚔️ Támadás: {selectedChampion.Info.Attack}";
-                    TxtDefense.Text = $"🛡️ Védekezés: {selectedChampion.Info.Defense}";
+                    TxtAttack.Text = $"Támadás: {selectedChampion.Info.Attack}";
+                    TxtDefense.Text = $"Védekezés: {selectedChampion.Info.Defense}";
                 }
 
                 if (selectedChampion.Tags != null)

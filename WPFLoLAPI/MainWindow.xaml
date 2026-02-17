@@ -10,6 +10,13 @@
         <ComboBox x:Name="Langcbx" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Langcbx_SelectionChanged">
             <ComboBoxItem Tag="en_US">en_US</ComboBoxItem>
             <ComboBoxItem Tag="hu_HU">hu_HU</ComboBoxItem>
+            <ComboBoxItem Tag="ru_RU">ru_RU</ComboBoxItem>
+            <ComboBoxItem Tag="fr_FR">fr_FR</ComboBoxItem>
+            <ComboBoxItem Tag="ja_JP">ja_JP</ComboBoxItem>
+            <ComboBoxItem Tag="ko_KR">ko_KR</ComboBoxItem>
+            <ComboBoxItem Tag="es_MX">es_MX</ComboBoxItem>
+            <ComboBoxItem Tag="ms_MY">ms_MY</ComboBoxItem>
+            <ComboBoxItem Tag="zh_CN">zh_CN</ComboBoxItem>
         </ComboBox>
 
         <ListBox x:Name="ChampListBox" DisplayMemberPath="Name"

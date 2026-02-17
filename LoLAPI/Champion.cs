@@ -13,6 +13,9 @@ namespace LoLAPI
         [JsonPropertyName("title")]
         public string Title { get; set; }
 
+        [JsonPropertyName("blurb")]
+        public string Blurb { get; set; }
+
         [JsonPropertyName("info")]
         public ChampionInfo Info { get; set; }
 
