@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPFLoLAPI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFLoLAPI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="Langcbx" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Langcbx_SelectionChanged">
+            <ComboBoxItem Tag="en_US">en_US</ComboBoxItem>
+            <ComboBoxItem Tag="hu_HU">hu_HU</ComboBoxItem>
+        </ComboBox>
+
+        <ListBox x:Name="ChampListBox" DisplayMemberPath="Name"
+                 HorizontalAlignment="Left" Height="300" Margin="10,40,0,0" 
+                 VerticalAlignment="Top" Width="120" SelectionChanged="ChampListBox_SelectionChanged"/>
+    </Grid>
+</Window>

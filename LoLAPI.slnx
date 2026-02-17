@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="LoLAPI/LoLAPI.csproj" />
+  <Project Path="WPFLoLAPI/WPFLoLAPI.csproj" />
+</Solution>
